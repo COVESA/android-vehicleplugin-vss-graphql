@@ -1,0 +1,13 @@
+<!-- Copyright (c) 2020 TietoEVRY. All rights reserved. -->
+
+<compatibility-matrix version="1.0" type="framework">
+    <hal format="hidl" optional="true">
+        <name>vendor.tieto.hardware.automotive.vehicle.plugin</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IVehiclePlugin</name>
+            <instance>graphql</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>

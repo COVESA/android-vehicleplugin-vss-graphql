@@ -1,0 +1,4 @@
+service vehicleplugin-1.0-graphql /vendor/bin/vehicleplugin-1.0-graphql-start.sh
+    oneshot
+    user root
+    seclabel u:r:user_script:s0

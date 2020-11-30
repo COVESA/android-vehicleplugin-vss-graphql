@@ -1,0 +1,9 @@
+<!-- Copyright (c) 2020 TietoEVRY. All rights reserved. -->
+
+<manifest version="1.0" type="device">
+    <hal format="hidl">
+        <name>vendor.tieto.hardware.automotive.vehicle.plugin</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IVehiclePlugin/graphql</fqname>
+    </hal>
+</manifest>

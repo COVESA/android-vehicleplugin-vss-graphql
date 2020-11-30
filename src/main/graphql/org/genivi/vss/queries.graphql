@@ -1,0 +1,33 @@
+query GetFuelData {
+    vehicle {
+        drivetrain {
+            fuelSystem {
+                level
+                tankCapacity
+            }
+        }
+    }
+}
+
+query GetCurrentGear {
+    vehicle {
+        drivetrain {
+            transmission {
+                gear
+            }
+        }
+    }
+}
+
+query GetEngineRpm {
+    vehicle {
+        drivetrain {
+            internalCombustionEngine {
+                engine {
+                    speed
+                }
+            }
+        }
+    }
+}
+
